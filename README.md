@@ -1,15 +1,19 @@
 # MATLAB Fall 2014 – Research Plan (Template)
 (text between brackets to be removed)
 
-> * Group Name: (be creative!)
-> * Group participants names: (alphabetically sorted by last name)
-> * Project Title: (can be changed later)
+> * Group Name: Turbinos
+> * Group participants names: Thomas Leu, Théophile Messin-Roizard, Ciro Salzmann
+> * Project Title: Strategies to get the most votes
 
 ## General Introduction
 
 (States your motivation clearly: why is it important / interesting to solve this problem?)
 (Add real-world examples, if any)
 (Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+
+
+
+
 
 ## The Model
 
