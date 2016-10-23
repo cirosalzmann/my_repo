@@ -59,9 +59,9 @@ It is expected that there will be a convergence in the opinion as time goes to i
 
 ## References 
 
-Influentials, Networks, and Public Opinion Formation - DUNCAN J. WATTS and PETER SHERIDAN DODDS, 2007
-Interplay between media and social influence in the collective behavior of opinion dynamics - FRANCESCA COLAIORI and CLAUDIO CASTELLANO, 2015
-Ergodic theorems for weakly interacting infinite systems and the voter model - RICHARD A. HOLLEY and THOMAS M. LIGGETT, 1975. 
+>* 1. Influentials, Networks, and Public Opinion Formation - DUNCAN J. WATTS and PETER SHERIDAN DODDS, 2007
+>* 2. Interplay between media and social influence in the collective behavior of opinion dynamics - FRANCESCA COLAIORI and CLAUDIO CASTELLANO, 2015
+>* 3. Ergodic theorems for weakly interacting infinite systems and the voter model - RICHARD A. HOLLEY and THOMAS M. LIGGETT, 1975. 
 
 ## Research Methods
 
