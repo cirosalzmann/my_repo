@@ -1,4 +1,4 @@
-# MATLAB Fall 2014 – Research Plan
+# MATLAB 2016 – Research Plan
 
 > * Group Name: Turbinos
 > * Group participants names: Thomas Leu, Théophile Messin-Roizard, Ciro Salzmann
