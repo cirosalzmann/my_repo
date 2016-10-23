@@ -24,7 +24,7 @@ Not each neighbour will have the same influence on someone. For instance, family
 
 The above mentioned works investigate different network topologies. Our approach will be a little different: We will try to find a specific, realistic network topology for the spreading of the opinions about the presidential candidates inside the U.S. population. This includes e. g. the density of agents, the correlation between communities and political opinions and the disposition of the influence between neighbours.
 
-Then we define different strategies to influence the opinions, like trying to get the media bias to your favor, get the most influential people to vote for you, get a large group of people in different communities to vote for you etc.
+Then we define different strategies to influence the opinions, like trying to get the media bias to your favor, get the most influential people to vote for you, get a large group of people in different communities to vote for you, get many of the undecided people to vote vor you etc.
 
 For each of the defined strategies and for different initial configurations (e.g. 40% candidate A, 40% candidate B, 20% undecided or 50% candidate A, 40% candidate B, 10% undecided) we simulate the outcome after a limited period of time. We would like at least one of this configurations to reflect a state of the opinions in the U.S. elections 2016. Note that because we are starting with agents already holding different opinions, we need to make an assumption on their disposition (the disposition should be in line with the previously stated correlation between communities and political opinions).
 
@@ -38,11 +38,10 @@ Which strategy is better, trying to reach a maximum amount of people or focus on
 
 ## Expected Results
 
-Generally, we expect it to be better, to reach more people, even if they have fewer influence.
-If we assume a higher correlation between the communities and the opinions, it might be harder to change the average opinion of a single community and need more than one agent to change the opinion to trigger such a cascade of opinion changes.
-We expect the ratio of the influence of the media to the influence of the social network to decrease in time. 
-It will be hard to identify what a feasible strategy is, e. g. when we compare reaching different
-
+Generally, we expect it to be better to reach more people, even if they have fewer influence.
+If we assume a higher correlation between the communities and the opinions, it will be harder to change the average opinion of a single community and might need more than one agent as initiator to trigger a cascade of changes that leads to the opposite average opinion in that community.
+We expect the influence of the media to be smaller than that of the social network.
+It will be hard to identify what a feasible strategy is in terms of concrete numbers, e.g. the numbers of agents that we can get to adapt our opinion at some time. 
 
 
 ## References 
@@ -59,5 +58,6 @@ It will be hard to identify what a feasible strategy is, e. g. when we compare r
 
 ## Other
 
->* Curve of the evolution of the Hilary/ Trump vote prognostics over time
+>* Curve of the evolution of the Hilary/Trump vote prognostics over time
+
 
