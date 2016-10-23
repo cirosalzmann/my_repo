@@ -4,13 +4,13 @@
 > * Group participants names: Thomas Leu, Théophile Messin-Roizard, Ciro Salzmann
 > * Project Title: Modeling and simulating different strategies for winning an election
 
-(Alternative Titelvorschläge: Strategies to get the most votes; Investigation (of factors influencing opinion formation) of dynamic opinion and how to effectively bring the average opinion distribution of a society/community to your advantage. )
 
 ## General Introduction
 
 How can you persuade a large group of people to agree with you? The answer to this question might be interesting for almost anybody, but particularly marketing agents and politicians. We would like to find a possible answer to it in the context of the U.S. presidential elections, which are a very current but also recurring event.
 
 In order to do so, we define different, (hopefully) realistic strategies for getting votes and see how effective each strategy is compared to the others.
+
 
 ## The Model
 
@@ -22,37 +22,25 @@ The influence of the media and the constant communication between nearby individ
 
 Not each neighbour will have the same influence on someone. For instance, family members might tend to have similar political views. What’s more, even two neighbours, that are in the same community may have a different level of influence. Both aspects are modeled in (Watts and Dodds 2007).
 
-The above mentioned works investigate different network topologies. Our approach will be a little different: We will try to find a specific, realistic network topology for the spreading of the opinions about the presidential candidates inside the 
+The above mentioned works investigate different network topologies. Our approach will be a little different: We will try to find a specific, realistic network topology for the spreading of the opinions about the presidential candidates inside the U.S. population. This includes e. g. the density of agents, the correlation between communities and political opinions and the disposition of the influence between neighbours.
 
+Then we define different strategies to influence the opinions, like trying to get the media bias to your favor, get the most influential people to vote for you, get a large group of people in different communities to vote for you etc.
 
-(The different individuals, in our case nodes, will not be directly linked. This means that one specific node would not be influenced only by other nodes directly linked to him, but by all existing nodes. The probability or how strong its influence will be is dependent to the distance with each node (it may or may not vary linearly))  
+For each of the defined strategies and for different initial configurations (e.g. 40% candidate A, 40% candidate B, 20% undecided or 50% candidate A, 40% candidate B, 10% undecided) we simulate the outcome after a limited period of time. We would like at least one of this configurations to reflect a state of the opinions in the U.S. elections 2016. Note that because we are starting with agents already holding different opinions, we need to make an assumption on their disposition (the disposition should be in line with the previously stated correlation between communities and political opinions).
 
-dependences of the model:
--the number of agents (mindsetters) for/ against
--their strength of persuasion
--their disposition (will two agents reach more people together, in a same area, or dispatched)
--the density of population
--the links between the members of this test-population 
--correlation between political opinions and communities
--the scale (the world/ a country/ a town/ a suburb) 
--the input of the general evolution of vote statistics over time, actualising our model in a specific way.
-
-One problem is that the model would not include all ways of reaching individuals, since they would be mostly influenced by nearby neighbours. Other ways such as Internet, TV and social media, which play an important role nowadays, are indirectly implemented, e.g. using parameters.
 
 ## Fundamental Questions
 
 Which strategies for gaining last minute support and getting out the vote are more effective than others?
-How to best reach people in order to, for example, win a presidential Election?
-How to reach a maximum of people? (with the fewest actors)
-Who should be the target individuals? Common voters or more influential people?
-how fast will a community react on an foreign opinion?
-Which strategy is better, reaching the maximum amount of people or focus on people with higher influence?
+Is it more effective to address people by media or by word-to-mouth advertisement?
+Which strategy is better, trying to reach a maximum amount of people or focus on people with higher influence?
 
 
 ## Expected Results
 
-Being more than one actor influencing a specific population area might work out better but being too many of those won’t probably help any longer. (the efficiency of each actor will drop quite quickly.)
-It is expected that there will be a convergence in the opinion as time goes to infinity. (Since in reality there is no infinite time scale, the simulation will run for a specific time depending on what is being investigated)
+
+It will be hard to identify what a feasible strategy is and what not, e. g. when we compare reaching different
+
 
 
 ## References 
