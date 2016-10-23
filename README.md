@@ -38,8 +38,10 @@ Which strategy is better, trying to reach a maximum amount of people or focus on
 
 ## Expected Results
 
-
-It will be hard to identify what a feasible strategy is and what not, e. g. when we compare reaching different
+Generally, we expect it to be better, to reach more people, even if they have fewer influence.
+If we assume a higher correlation between the communities and the opinions, it might be harder to change the average opinion of a single community and need more than one agent to change the opinion to trigger such a cascade of opinion changes.
+We expect the ratio of the influence of the media to the influence of the social network to decrease in time. 
+It will be hard to identify what a feasible strategy is, e. g. when we compare reaching different
 
 
 
@@ -58,5 +60,4 @@ It will be hard to identify what a feasible strategy is and what not, e. g. when
 ## Other
 
 >* Curve of the evolution of the Hilary/ Trump vote prognostics over time
-
 
