@@ -64,7 +64,7 @@ It is expected that there will be a convergence in the opinion as time goes to i
 ## Research Methods
 
 >* Voter model
->* cellular automata
+>* Cellular automata
 
 
 ## Other
