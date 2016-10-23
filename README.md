@@ -22,7 +22,7 @@ The influence of the media and the constant communication between nearby individ
 
 Not each neighbour will have the same influence on someone. For instance, family members might tend to have similar political views. What’s more, even two neighbours, that are in the same community may have a different level of influence. Both aspects are modeled in (Watts and Dodds 2007).
 
-The above mentioned works different network topologies 
+The above mentioned works investigate different network topologies. Our approach will be a little different: We will try to find a specific, realistic network topology for the spreading of the opinions about the presidential candidates inside the 
 
 
 (The different individuals, in our case nodes, will not be directly linked. This means that one specific node would not be influenced only by other nodes directly linked to him, but by all existing nodes. The probability or how strong its influence will be is dependent to the distance with each node (it may or may not vary linearly))  
@@ -51,8 +51,6 @@ Which strategy is better, reaching the maximum amount of people or focus on peop
 
 ## Expected Results
 
-(What are the answers to the above questions that you expect to find before starting your research?)
-
 Being more than one actor influencing a specific population area might work out better but being too many of those won’t probably help any longer. (the efficiency of each actor will drop quite quickly.)
 It is expected that there will be a convergence in the opinion as time goes to infinity. (Since in reality there is no infinite time scale, the simulation will run for a specific time depending on what is being investigated)
 
@@ -65,7 +63,8 @@ It is expected that there will be a convergence in the opinion as time goes to i
 
 ## Research Methods
 
-Voter model, cellular automata
+>* Voter model
+>* cellular automata
 
 
 ## Other
