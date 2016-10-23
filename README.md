@@ -1,4 +1,4 @@
-# MATLAB 2016 – Research Plan
+# MATLAB Fall 2014 – Research Plan
 
 > * Group Name: Turbinos
 > * Group participants names: Thomas Leu, Théophile Messin-Roizard, Ciro Salzmann
@@ -24,9 +24,9 @@ Not each neighbour will have the same influence on someone. For instance, family
 
 The above mentioned works investigate different network topologies. Our approach will be a little different: We will try to find a specific, realistic network topology for the spreading of the opinions about the presidential candidates inside the U.S. population. This includes e. g. the density of agents, the correlation between communities and political opinions and the disposition of the influence between neighbours.
 
-Then we define different strategies to influence the opinions, like trying to get the media bias to your favor, get the most influential people to vote for you, get a large group of people in different communities to vote for you, get many of the undecided people to vote vor you etc.
+Then we define different strategies to influence the opinions, like trying to get the media bias to your favor, get the most influential people to vote for you, get a large group of people in different communities to vote for you, get many of the undecided people to vote for you etc.
 
-For each of the defined strategies and for different initial configurations (e.g. 40% candidate A, 40% candidate B, 20% undecided or 50% candidate A, 40% candidate B, 10% undecided) we simulate the outcome after a limited period of time. We would like at least one of this configurations to reflect a state of the opinions in the U.S. elections 2016. Note that because we are starting with agents already holding different opinions, we need to make an assumption on their disposition (the disposition should be in line with the previously stated correlation between communities and political opinions).
+For each of the defined strategies and for different initial configurations (e.g. 40% candidate A, 40% candidate B, 20% undecided or 50% candidate A, 40% candidate B, 10% undecided) we simulate the configuration after a limited period of time. We would like at least one of this configurations to reflect a state of the opinions in the U.S. elections 2016. Note that because we are starting with agents already holding different opinions, we need to make an assumption on their disposition (the disposition should be in line with the previously stated correlation between communities and political opinions).
 
 
 ## Fundamental Questions
