@@ -11,12 +11,15 @@ cdf = cumsum(pdf);  %Cumulative Sum -> Fuer Projektion
 x = x(mask);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% plot(x, prob)
-
 %RandVals = rand(1,90000);
 RandVals = rand;
 projection = interp1(cdf, x, RandVals);  %Staerke von prob abhaengig
 
+if isnan(projection)
+    projection = 0;
+end
+
+% plot(x, prob)
 % figure
 % histogram(projection, 100)
 end
