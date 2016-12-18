@@ -21,7 +21,7 @@ SizeX = 200; %X dimension of grid
 SizeY = 200; %Y dimension of grid
 maxRange = 3; %Maximum range that agents can reach others (Strength ranges from 1 to maxRange)
 NumOutputs = 80; %Number of times the results are displayed and saved during simulation (evenly distributed along simulation time)
-PathName = 'Inputs&Outputs\3_200_a6_SmallCircle'; %Path for folder where all input and output files are saved
+PathName = 'Inputs&Outputs'; %Path for folder where all input and output files are saved
 
 %% Initialise (import all 3 Matrices needed to run simulation)
 [Opinion, Strength, Map] = Initialise(SizeX,SizeY,maxRange-1, PathName); %maxRange-1
